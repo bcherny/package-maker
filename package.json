@@ -1,6 +1,6 @@
 {
   "name": "package-maker",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Automatically generate package.json dependencies by crawling requires",
   "main": "index.js",
   "scripts": {
@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/eighttrackmind/package-maker/issues"
   },
-  "homepage": "https://github.com/eighttrackmind/package-maker"
+  "homepage": "https://github.com/eighttrackmind/package-maker",
+  "dependencies": {
+    "detective": "~2.4.0"
+  }
 }
